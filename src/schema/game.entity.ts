@@ -9,8 +9,14 @@ export class Game {
   name: string;
 
   @Column()
+  description: string;
+
+  @Column()
   maxPlayers: number;
 
   @Column()
   minPlayers: number;
+
+  @Column()
+  playerTurnTime: number;
 }
